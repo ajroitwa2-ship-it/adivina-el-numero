@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el Número</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Adivina el Número</h1>
+        <p class="message">Estoy pensando en un número entre 1 y 100.</p>
+        <input type="number" id="guessInput" min="1" max="100">
+        <button id="checkButton">Adivinar</button>
+        <p id="feedback"></p>
+        <button id="resetButton" class="hidden">Jugar de Nuevo</button>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
